@@ -1,0 +1,14 @@
+{
+	"name": "bluejeans",
+	"description": "Bluetooth manager for Node.js",
+	"version": "0.1.0",
+	"author": "Jelle De Loecker <jelle@develry.be>",
+	"keywords": ["bluetooth"],
+	"main": "lib/bluejeans.js",
+	"repository": "git@github.com:skerit/bluejeans.git",
+	"dependencies": {
+		"protoblast": "~0.2.0",
+		"byline": "~4.2.1"
+	},
+	"license": "MIT"
+}
