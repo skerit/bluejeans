@@ -4,11 +4,12 @@
 	"version": "0.1.0",
 	"author": "Jelle De Loecker <jelle@develry.be>",
 	"keywords": ["bluetooth"],
-	"main": "lib/bluejeans.js",
+	"main": "lib/init.js",
 	"repository": "git@github.com:skerit/bluejeans.git",
 	"dependencies": {
-		"protoblast": "~0.2.0",
-		"byline": "~4.2.1"
+		"bluetooth-hci-socket": "~0.4.4",
+		"byline": "~4.2.1",
+		"protoblast": "~0.2.2"
 	},
 	"license": "MIT"
 }

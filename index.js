@@ -1,1 +1,1 @@
-module.exports = require('./lib/bluejeans.js');
+module.exports = require('./lib/init.js');
