@@ -1,6 +1,7 @@
 # bluejeans
 
-Bluetooth manager for Node.js
+A Bluetooth module for Node.js.
+It is much like `noble`, and even shares some code, but in the future it is also meant to manage non-LE devices.
 
 # Permissions
 
