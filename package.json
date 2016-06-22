@@ -9,7 +9,7 @@
 	"dependencies": {
 		"bluetooth-hci-socket": "~0.4.4",
 		"byline": "~4.2.1",
-		"protoblast": "~0.2.2"
+		"protoblast": "~0.3.0"
 	},
 	"license": "MIT"
 }
