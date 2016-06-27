@@ -5,8 +5,9 @@ It is much like `noble`, and even shares some code, but in the future it is also
 
 # Permissions
 
-Make sure hcitool has the needed permissions:
+Make sure hcitool and node have the needed permissions:
 
 ```
 sudo setcap 'cap_net_raw,cap_net_admin+eip' `which hcitool`
+sudo setcap 'cap_net_raw,cap_net_admin+eip' `which node`
 ```

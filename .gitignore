@@ -18,3 +18,4 @@ v8.log
 
 # Ignore test files
 scratch*
+beep-*
