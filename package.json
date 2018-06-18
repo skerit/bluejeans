@@ -1,15 +1,23 @@
 {
-	"name": "bluejeans",
-	"description": "Bluetooth manager for Node.js",
-	"version": "0.1.1",
-	"author": "Jelle De Loecker <jelle@develry.be>",
-	"keywords": ["bluetooth"],
-	"main": "lib/init.js",
-	"repository": "git@github.com:skerit/bluejeans.git",
-	"dependencies": {
-		"bluetooth-hci-socket": "~0.4.4",
-		"byline": "~4.2.1",
-		"protoblast": "~0.3.0"
-	},
-	"license": "MIT"
+  "name": "bluejeans",
+  "description": "Bluetooth manager for Node.js",
+  "version": "0.1.1",
+  "author": "Jelle De Loecker <jelle@develry.be>",
+  "keywords": [
+    "bluetooth"
+  ],
+  "main": "lib/init.js",
+  "repository": "git@github.com:skerit/bluejeans.git",
+  "dependencies": {
+    "bluetooth-hci-socket": "~0.4.4",
+    "byline": "~4.2.1",
+    "protoblast": "~0.3.0",
+    "snyk": "^1.83.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
